@@ -45,7 +45,7 @@ jobs:
         if: always()
         run: |
           ./trunk flakytests test \
-          --org-url-slug gewenyu99 \
-          --token ${{ secrets.TRUNK_API_TOKEN }} \
-          --junit-paths ./junit.xml \
-          --allow-empty-test-results
+            --org-url-slug gewenyu99 \
+            --token ${{ secrets.TRUNK_API_TOKEN }} \
+            --junit-paths ./junit.xml \
+            --allow-empty-test-results
