@@ -25,12 +25,15 @@ jobs:
         run: xcodebuild -version
       - name: Install Trunk
         run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
+      - name: Build
+        run: |
+           xcodebuild test -scheme test -resultBundlePath ./test-results.xcresult
       - name: Upload xcresult
         if: always()
         run: |
-          ./trunk flakytests test \
+          ./trunk flakytests upload \
             --org-url-slug real-saas-app \
             --token ${{ secrets.TRUNK_API_TOKEN }} \
             --xcresult-path ./test-results.xcresult \
             --allow-empty-test-results \
-            xcodebuild test -scheme test -resultBundlePath ./test-results.xcresult
+           
