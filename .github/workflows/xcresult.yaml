@@ -21,22 +21,22 @@ jobs:
     runs-on: macos-13
     defaults:
       run:
-        working-directory: ./xcode
+        working-directory: xcode
     steps:
-      - uses: actions/checkout@v4
-      - name: Show current version of Xcode
-        run: xcodebuild -version
-      - name: Install Trunk
-        run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
+      - uses: actions/checkout@v3
+
       - name: Build
         run: |
            xcodebuild test -scheme test -resultBundlePath ./test-results.xcresult
-      - name: Upload xcresult
-        if: always()
-        run: |
-          ./trunk flakytests upload \
-            --org-url-slug real-saas-app \
-            --token ${{ secrets.TRUNK_API_TOKEN }} \
-            --xcresult-path ./test-results.xcresult \
-            --allow-empty-test-results \
+
+      # - name: Install Trunk
+      #   run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
+      # - name: Upload xcresult
+      #   if: always()
+      #   run: |
+      #     ./trunk flakytests upload \
+      #       --org-url-slug real-saas-app \
+      #       --token ${{ secrets.TRUNK_API_TOKEN }} \
+      #       --xcresult-path ./test-results.xcresult \
+      #       --allow-empty-test-results \
            
