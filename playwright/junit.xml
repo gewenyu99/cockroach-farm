@@ -1,0 +1,1192 @@
+<testsuites id="" name="" tests="221" failures="25" skipped="196" errors="0" time="2.9256889999999998">
+<testsuite name="e2e.spec.ts" timestamp="2025-03-10T15:45:58.762Z" hostname="chromium" tests="10" failures="10" skipped="0" time="0.03" errors="0">
+<testcase name="[chromium] should return list of users correctly." classname="e2e.spec.ts" time="0.002">
+<failure message="e2e.spec.ts:3:1 should return list of users correctly." type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:3:1 › should return list of users correctly. ────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should have a next button on the page" classname="e2e.spec.ts" time="0.003">
+<failure message="e2e.spec.ts:10:1 should have a next button on the page" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:10:1 › should have a next button on the page ────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should login with credentials correctly correctly." classname="e2e.spec.ts" time="0.005">
+<failure message="e2e.spec.ts:14:1 should login with credentials correctly correctly." type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:14:1 › should login with credentials correctly correctly. ───────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should navigate to the dashboard after login" classname="e2e.spec.ts" time="0.003">
+<failure message="e2e.spec.ts:19:1 should navigate to the dashboard after login" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:19:1 › should navigate to the dashboard after login ─────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display user profile information" classname="e2e.spec.ts" time="0.002">
+<failure message="e2e.spec.ts:22:1 should display user profile information" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:22:1 › should display user profile information ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should allow user to update account settings" classname="e2e.spec.ts" time="0.004">
+<failure message="e2e.spec.ts:26:1 should allow user to update account settings" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:26:1 › should allow user to update account settings ─────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should log out user and redirect to login page" classname="e2e.spec.ts" time="0.003">
+<failure message="e2e.spec.ts:30:1 should log out user and redirect to login page" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:30:1 › should log out user and redirect to login page ───────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display error message for invalid login correctly." classname="e2e.spec.ts" time="0.003">
+<failure message="e2e.spec.ts:34:1 should display error message for invalid login correctly." type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:34:1 › should display error message for invalid login correctly. ────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should load the pricing page" classname="e2e.spec.ts" time="0.002">
+<failure message="e2e.spec.ts:41:1 should load the pricing page" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:41:1 › should load the pricing page ─────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display the contact form on the contact page" classname="e2e.spec.ts" time="0.003">
+<failure message="e2e.spec.ts:45:1 should display the contact form on the contact page" type="FAILURE">
+<![CDATA[  [chromium] › e2e.spec.ts:45:1 › should display the contact form on the contact page ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+</testsuite>
+<testsuite name="ui-tests.spec.ts" timestamp="2025-03-10T15:45:58.762Z" hostname="chromium" tests="20" failures="15" skipped="5" time="0.048" errors="0">
+<testcase name="[chromium] has title correctly." classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:4:1 has title correctly." type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:4:1 › has title correctly. ─────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display user profile information correctly." classname="ui-tests.spec.ts" time="0.005">
+<failure message="ui-tests.spec.ts:13:1 should display user profile information correctly." type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:13:1 › should display user profile information correctly. ──────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should load the v1 homepage correctly." classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:22:1 should load the v1 homepage correctly." type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:22:1 › should load the v1 homepage correctly. ──────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display error message for invalid login" classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:31:1 should display error message for invalid login" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:31:1 › should display error message for invalid login ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should navigate to the dashboard after login correctly." classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:35:1 should navigate to the dashboard after login correctly." type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:35:1 › should navigate to the dashboard after login correctly. ─────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display the contact form on the contact page" classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:47:1 should display the contact form on the contact page" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:47:1 › should display the contact form on the contact page ─────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should load the pricing page correctly." classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:53:1 should load the pricing page correctly." type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:53:1 › should load the pricing page correctly. ─────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should allow user to update account settings" classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:62:1 should allow user to update account settings" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:62:1 › should allow user to update account settings ────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should have a next button on the page" classname="ui-tests.spec.ts" time="0.004">
+<failure message="ui-tests.spec.ts:66:1 should have a next button on the page" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:66:1 › should have a next button on the page ───────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should log out user and redirect to login page" classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:70:1 should log out user and redirect to login page" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:70:1 › should log out user and redirect to login page ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display the about us section correctly." classname="ui-tests.spec.ts" time="0.002">
+<failure message="ui-tests.spec.ts:74:1 should display the about us section correctly." type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:74:1 › should display the about us section correctly. ──────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should show the FAQ page correctly." classname="ui-tests.spec.ts" time="0.002">
+<failure message="ui-tests.spec.ts:83:1 should show the FAQ page correctly." type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:83:1 › should show the FAQ page correctly. ─────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display the terms and conditions" classname="ui-tests.spec.ts" time="0.004">
+<failure message="ui-tests.spec.ts:92:1 should display the terms and conditions" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:92:1 › should display the terms and conditions ─────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should load the blog page" classname="ui-tests.spec.ts" time="0.004">
+<failure message="ui-tests.spec.ts:96:1 should load the blog page" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:96:1 › should load the blog page ───────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should display the search results" classname="ui-tests.spec.ts" time="0.003">
+<failure message="ui-tests.spec.ts:100:1 should display the search results" type="FAILURE">
+<![CDATA[  [chromium] › ui-tests.spec.ts:100:1 › should display the search results ──────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /Users/wenyuge/Library/Caches/ms-playwright/chromium_headless_shell-1161/chrome-mac/headless_shell
+    ╔═════════════════════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright Test or Playwright was just installed or updated. ║
+    ║ Please run the following command to download new browsers:              ║
+    ║                                                                         ║
+    ║     pnpm exec playwright install                                        ║
+    ║                                                                         ║
+    ║ <3 Playwright Team                                                      ║
+    ╚═════════════════════════════════════════════════════════════════════════╝
+]]>
+</failure>
+</testcase>
+<testcase name="[chromium] should show the privacy policy correctly." classname="ui-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] should display the site map" classname="ui-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] should load the careers page" classname="ui-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] should display the newsletter signup form" classname="ui-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] should show the testimonials section" classname="ui-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="unit-tests.spec.ts" timestamp="2025-03-10T15:45:58.762Z" hostname="chromium" tests="191" failures="0" skipped="191" time="0" errors="0">
+<testcase name="[chromium] test utils/createService" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/createRepository" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/createController" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/createMiddleware" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/createHelper" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/initializeDatabase" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] Verify user login functionality" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/formatDate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] Check if the homepage loads correctly" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/calculateSum" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/parseJSON" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateEmail" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/generateToken" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/hashPassword" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/comparePasswords" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/sanitizeInput" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/escapeHTML" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/generateUUID" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/convertToCSV" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/parseCSV" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/convertToXML" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/parseXML" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/convertToYAML" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/parseYAML" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/convertToJSON" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/parseQueryString" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/stringifyQueryString" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/deepClone" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/mergeObjects" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/debounce" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/throttle" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/flattenArray" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/uniqueArray" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/chunkArray" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/shuffleArray" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/generateRandomString" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/generateRandomNumber" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/formatCurrency" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/formatPercentage" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/formatPhoneNumber" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/formatAddress" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validatePhoneNumber" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validatePostalCode" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateCreditCard" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateSSN" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateDate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateURL" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateIPAddress" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateMACAddress" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateHexColor" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateRGBColor" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateHSLColor" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validatePasswordStrength" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUsername" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateFullName" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateAge" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateGender" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateCountry" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateState" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateCity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateStreet" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateHouseNumber" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateApartmentNumber" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateLatitude" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateLongitude" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateCoordinate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateTemperature" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateHumidity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validatePressure" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateWindSpeed" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateWindDirection" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validatePrecipitation" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateSnowfall" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateCloudCover" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateVisibility" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUVIndex" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateAirQuality" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validatePollenCount" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateSunriseTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateSunsetTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateMoonriseTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateMoonsetTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateMoonPhase" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateTideLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateWaveHeight" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateWavePeriod" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateWaveDirection" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateSeaSurfaceTemperature" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateEmailFormat" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validatePasswordComplexity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUsernameUniqueness" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserAge" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserGender" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCountry" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserState" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserStreet" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserHouseNumber" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserApartmentNumber" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserLatitude" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserLongitude" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCoordinate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserTemperature" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserHumidity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserPressure" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserWindSpeed" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserWindDirection" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserPrecipitation" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSnowfall" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCloudCover" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserVisibility" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserUVIndex" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserAirQuality" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserPollenCount" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSunriseTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSunsetTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMoonriseTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMoonsetTime" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMoonPhase" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserTideLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserWaveHeight" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserWavePeriod" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserWaveDirection" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSeaSurfaceTemperature" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserBloodPressure" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserHeartRate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCholesterolLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserBloodSugarLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserBMI" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserHeight" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserWeight" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserBodyFatPercentage" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMuscleMass" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserBoneDensity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserWaterIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCalorieIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserProteinIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCarbohydrateIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserFatIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserVitaminIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMineralIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSleepDuration" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSleepQuality" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserExerciseDuration" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserExerciseIntensity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserStepCount" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserDistanceTraveled" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCaloriesBurned" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserActiveMinutes" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSedentaryMinutes" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserFloorsClimbed" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserHeartRateVariability" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserRestingHeartRate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMaxHeartRate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMinHeartRate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserAverageHeartRate" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserStressLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMood" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserEnergyLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserHydrationLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCaffeineIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserAlcoholIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserNicotineIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMedicationIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSupplementIntake" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserAllergySeverity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSymptomSeverity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserPainLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserFatigueLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserNauseaLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserDizzinessLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserHeadacheSeverity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserCoughSeverity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserFeverSeverity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserChillsSeverity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserSweatingSeverity" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserAppetiteLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserThirstLevel" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserUrineColor" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserStoolColor" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserStoolConsistency" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMenstrualCycle" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserOvulation" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserPregnancy" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserBreastfeeding" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserMenopause" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserAndropause" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserPuberty" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserGrowthSpurt" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+<testcase name="[chromium] test utils/validateUserDevelopmentalMilestones" classname="unit-tests.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+</testsuites>
