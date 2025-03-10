@@ -39,7 +39,7 @@ jobs:
         run: curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Run Pytest
         run: |
-          pytest --junitxml=./junit.xml
+          pytest --junitxml=./junit.xml -o junit_family=xunit1
 
       - name: Upload JUnit.xml
         if: always()
