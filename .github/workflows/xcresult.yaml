@@ -27,6 +27,8 @@ jobs:
         with:
           xcode-version: latest-stable
       - uses: actions/checkout@v3
+      - name: Install Trunk
+        run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Install the Apple certificate and provisioning profile
         env:
           BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
@@ -60,13 +62,11 @@ jobs:
         run: |
            xcodebuild test -scheme testTests -resultBundlePath ./test-results.xcresult
 
-      - name: Install Trunk
-        run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Upload xcresult
         if: always()
         run: |
           ./trunk flakytests upload \
-            --org-url-slug real-saas-app \
+            --org-url-slug gewenyu99 \
             --token ${{ secrets.TRUNK_API_TOKEN }} \
             --xcresult-path ./test-results.xcresult \
             --allow-empty-test-results \
