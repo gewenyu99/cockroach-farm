@@ -30,7 +30,7 @@ jobs:
         run: |
           ./trunk flakytests test \
             --org-url-slug real-saas-app \
-            --token $TRUNK_API_TOKEN \
+            --token ${{ secrets.TRUNK_API_TOKEN }} \
             --junit-paths ./junit.xml \
             --allow-empty-test-results \
             xcodebuild test -scheme test -resultBundlePath ./test-results.xcresult
