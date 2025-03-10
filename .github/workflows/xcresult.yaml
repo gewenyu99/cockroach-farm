@@ -31,6 +31,6 @@ jobs:
           ./trunk flakytests test \
             --org-url-slug real-saas-app \
             --token ${{ secrets.TRUNK_API_TOKEN }} \
-            --xcresult-paths ./test-results.xcresult \
+            --xcresult-path ./test-results.xcresult \
             --allow-empty-test-results \
             xcodebuild test -scheme test -resultBundlePath ./test-results.xcresult
