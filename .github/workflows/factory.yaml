@@ -16,7 +16,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.WEN_PAT }}
         id: merge
-        run: javascript/src/season/merge_next
+        run: src/season/merge_next
 
   create-pr:
     needs: merge-pr
@@ -29,7 +29,7 @@ jobs:
 
       - name: run switch season
         id: switch
-        run: javascript/src/season/flip
+        run: src/season/flip
 
       - name: choose next
         id: choose-next
@@ -46,4 +46,4 @@ jobs:
           title: ${{ steps.choose-next.outputs.title }} season
           body: ${{ steps.switch.outputs.season }} season
           labels: ${{ steps.switch.outputs.season }}
-          branch: eli/season
+          branch: linear-5229
