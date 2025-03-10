@@ -45,7 +45,7 @@ jobs:
       - name: Upload JUnit.xml
         if: always()
         run: |
-          ./flakytests test \
+          ./trunk flakytests test \
             --org-url-slug real-saas-app \
             --token $TRUNK_API_TOKEN \
             --junit-paths ./junit.xml \
