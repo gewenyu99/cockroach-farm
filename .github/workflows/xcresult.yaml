@@ -19,6 +19,9 @@ jobs:
   test:
     name: Build and test
     runs-on: macos-13
+    defaults:
+      run:
+        working-directory: ./xcode
     steps:
       - uses: actions/checkout@v4
       - name: Show current version of Xcode
