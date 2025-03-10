@@ -41,7 +41,8 @@ jobs:
 
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps
-
+      - name: Install Trunk
+        run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Upload JUnit.xml
         if: always()
         run: |
