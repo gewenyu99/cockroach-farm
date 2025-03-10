@@ -1,0 +1,35 @@
+name: Javascript Tests
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      # trunk-ignore(checkov/CKV_GHA_7)
+      cli-version:
+        type: string
+        required: false
+        description: The version of `analytics-cli` to use. Defaults to the latest specified in `analytis-uploader`.
+
+jobs:
+  test:
+    name: Build and test
+    runs-on: macos-13
+    steps:
+      - uses: actions/checkout@v4
+      - name: Show current version of Xcode
+        run: xcodebuild -version
+
+      - name: Upload xcresult
+        if: always()
+        run: |
+          ./flakytests test \
+            --org-url-slug gewenyu99 \
+            --token $TRUNK_API_TOKEN \
+            --junit-paths ./junit.xml \
+            --allow-empty-test-results \
+            xcodebuild test -scheme test -resultBundlePath ./test-results.xcresult

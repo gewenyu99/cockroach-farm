@@ -1,0 +1,49 @@
+name: PR Factory
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 */4 * * *"
+
+jobs:
+  merge-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Merge active change
+        env:
+          GH_TOKEN: ${{ secrets.WEN_PAT }}
+        id: merge
+        run: javascript/src/season/merge_next
+
+  create-pr:
+    needs: merge-pr
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: run switch season
+        id: switch
+        run: javascript/src/season/flip
+
+      - name: choose next
+        id: choose-next
+        run: |
+            chmod +x ./.github/workflows/randname.sh
+            echo "secret_name=WEN_PAT" >> $GITHUB_OUTPUT
+            ./.github/workflows/randname.sh >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets[steps.choose-next.outputs.secret_name] }}
+          commit-message: Everyone knows its ${{ steps.switch.outputs.season }}
+          title: ${{ steps.choose-next.outputs.title }} season
+          body: ${{ steps.switch.outputs.season }} season
+          labels: ${{ steps.switch.outputs.season }}
+          branch: eli/season
