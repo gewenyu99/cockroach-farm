@@ -21,13 +21,13 @@ jobs:
     runs-on: macos-13
     defaults:
       run:
-        working-directory: xcode
+        working-directory: xcode/test
     steps:
       - uses: actions/checkout@v3
 
       - name: Build
         run: |
-           xcodebuild test -scheme test -resultBundlePath ./test-results.xcresult
+           xcodebuild test -scheme testTests -resultBundlePath ./test-results.xcresult
 
       # - name: Install Trunk
       #   run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
