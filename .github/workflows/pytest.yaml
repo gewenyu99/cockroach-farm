@@ -44,7 +44,7 @@ jobs:
       - name: Upload JUnit.xml
         if: always()
         run: |
-          ./trunk flakytests test \
+          ./trunk flakytests upload \
             --org-url-slug gewenyu99 \
             --token ${{ secrets.TRUNK_API_TOKEN }} \
             --junit-paths ./junit.xml \
