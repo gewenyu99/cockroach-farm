@@ -1,0 +1,53 @@
+name: Go Tests
+
+on:
+  schedule:
+    - cron: 0 */6 * * *
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      # trunk-ignore(checkov/CKV_GHA_7)
+      cli-version:
+        type: string
+        required: false
+        description:
+          The version of `analytics-cli` to use. Defaults to the latest specified in
+          `analytis-uploader`.
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./gotestsum
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '^1.17'
+
+      - name: Install Dependencies
+        run: |
+          go mod download
+
+      - name: Install gotestsum
+        run: |
+          go install gotest.tools/gotestsum@latest
+
+      
+      - name: Install Trunk
+        run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
+      - name: Upload JUnit.xml
+        if: always()
+        run: |
+          ./trunk flakytests test \
+            --org-url-slug gewenyu99 \
+            --token ${{ secrets.TRUNK_API_TOKEN }} \
+            --junit-paths ./junit.xml \
+            --allow-empty-test-results \
+            gotestsum --junitfile junit.xml
