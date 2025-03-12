@@ -16,7 +16,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.WEN_PAT }}
         id: merge
-        run: src/season/merge_next
+        run: scripts/season/merge_next
 
   create-pr:
     needs: merge-pr
