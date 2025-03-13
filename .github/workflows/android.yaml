@@ -39,7 +39,10 @@ jobs:
       run: chmod +x gradlew
     
     - name: Run tests
-      run: ./gradlew test
+      run: |
+        ls
+        pwd
+        ./gradlew test
     - name: Upload JUnit.xml
       if: always()
       run: |
@@ -47,5 +50,5 @@ jobs:
         ./trunk flakytests upload \
           --org-url-slug gewenyu99 \
           --token ${{ secrets.TRUNK_API_TOKEN }} \
-          --junit-paths ./app/junit-reports/*.xml \
+          --junit-paths "./app/junit-reports/*.xml" \
           --allow-empty-test-results
