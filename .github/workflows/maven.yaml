@@ -37,8 +37,7 @@ jobs:
     
     - name: Run tests
       run: |
-        maven compile
-        maven test
+        maven -B test
     - name: Upload JUnit.xml
       if: always()
       run: |
