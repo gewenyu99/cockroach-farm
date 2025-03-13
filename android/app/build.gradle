@@ -42,8 +42,7 @@ android {
                         outputLocation = file("./junit-reports")
                     }
                 }
-                // Enable retries for test failures
-                maxRetries = 2
+
             }
         }
     }
