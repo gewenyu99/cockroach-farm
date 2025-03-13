@@ -9,29 +9,13 @@ on:
     branches: [main]
   workflow_dispatch:
     inputs:
+      # trunk-ignore(checkov/CKV_GHA_7)
       cli-version:
         type: string
         required: false
         description:
           The version of `analytics-cli` to use. Defaults to the latest specified in
           `analytis-uploader`.
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./android
-    steps:
-      - uses: actions/checkout@v4
-
-     name: Android CI
-
-on:
-  push:
-    branches: [ main, master, develop ]
-  pull_request:
-    branches: [ main, master, develop ]
 
 jobs:
   test:
