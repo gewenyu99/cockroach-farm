@@ -34,14 +34,10 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: Set up Maven
-      uses: stCarolas/setup-maven@v5
-      with:
-        maven-version: 3.9.9
     
     - name: Run tests
       run: |
-        maven -B test
+        mvn test
     - name: Upload JUnit.xml
       if: always()
       run: |
