@@ -44,7 +44,7 @@ jobs:
       if: always()
       run: |
         curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
-        ./trunk flakytests test \
+        ./trunk flakytests upload \
           --org-url-slug gewenyu99 \
           --token ${{ secrets.TRUNK_API_TOKEN }} \
           --junit-paths ./junit-reports/*.xml \
