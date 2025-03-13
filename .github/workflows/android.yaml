@@ -40,10 +40,10 @@ jobs:
     
     - name: Run tests
       run: ./gradlew test
-
     - name: Upload JUnit.xml
       if: always()
       run: |
+        curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
         ./trunk flakytests test \
           --org-url-slug gewenyu99 \
           --token ${{ secrets.TRUNK_API_TOKEN }} \
