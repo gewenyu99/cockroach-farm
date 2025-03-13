@@ -47,5 +47,5 @@ jobs:
         ./trunk flakytests upload \
           --org-url-slug gewenyu99 \
           --token ${{ secrets.TRUNK_API_TOKEN }} \
-          --junit-paths ./junit-reports/*.xml \
+          --junit-paths ./app/junit-reports/*.xml \
           --allow-empty-test-results
