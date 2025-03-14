@@ -1,4 +1,4 @@
-name: Cypress Tests
+name: Pytest Tests
 
 on:
   schedule:
@@ -22,34 +22,31 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./cypress
+        working-directory: ./pytest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      # Install npm dependencies, cache them correctly
-      # and run all Cypress tests
+      - uses: actions/checkout@v4
 
-      - name: Use Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          node-version: 20.x
+          python-version: '3.x'
 
       - name: Install Dependencies
         run: |
-          npm install
-      - name: Cypress run
-        uses: cypress-io/github-action@v6
-        with:
-          install: false
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Install Trunk
+        run: curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
+      - name: Run Pytest
+        run: |
+          behave --junit --junit-directory ./junit-reports
         continue-on-error: true
 
-      - name: Install Trunk
-        run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Upload JUnit.xml
         if: always()
         run: |
           ./trunk flakytests upload \
             --org-url-slug gewenyu99 \
             --token ${{ secrets.TRUNK_API_TOKEN }} \
-            --junit-paths ./junit.xml \
-            --allow-empty-test-results \
+            --junit-paths "./junit-reports/*.xml" \
+            --allow-empty-test-results

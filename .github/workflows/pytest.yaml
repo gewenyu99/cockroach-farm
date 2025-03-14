@@ -40,6 +40,7 @@ jobs:
       - name: Run Pytest
         run: |
           pytest --junitxml=./junit.xml -o junit_family=xunit1
+        continue-on-error: true
 
       - name: Upload JUnit.xml
         if: always()
