@@ -1,0 +1,52 @@
+name: Gradle Tests
+
+on:
+  schedule:
+    - cron: 0 */6 * * *
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      # trunk-ignore(checkov/CKV_GHA_7)
+      cli-version:
+        type: string
+        required: false
+        description:
+          The version of `analytics-cli` to use. Defaults to the latest specified in
+          `analytis-uploader`.
+
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./gradle
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+    
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    
+    - name: Run tests
+      run: |
+        ./gradlew test
+    - name: Upload JUnit.xml
+      if: always()
+      run: |
+        curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
+        ./trunk flakytests upload \
+          --org-url-slug gewenyu99 \
+          --token ${{ secrets.TRUNK_API_TOKEN }} \
+          --junit-paths "./app/build/junit-reports/test/*.xml" \
+          --allow-empty-test-results
