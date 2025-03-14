@@ -35,7 +35,7 @@ jobs:
         uses: bazelbuild/setup-bazelisk@v3
 
       - name: run tests
-        run: bazel test //src/main:hello_test 
+        run: bazel test //src/main:hello_test --nobuild_event_json_file_path_conversion --build_event_json_file=build_events.json
         continue-on-error: true
 
       - name: Install Trunk
