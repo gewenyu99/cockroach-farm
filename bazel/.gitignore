@@ -228,3 +228,5 @@ jacoco/
 # Ignore OS-specific files
 .DS_Store
 Thumbs.db
+
+build_events.json

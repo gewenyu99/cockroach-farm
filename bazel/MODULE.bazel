@@ -1,0 +1,29 @@
+module(
+    name = "example_project",
+    version = "0.1.0",
+)
+
+bazel_dep(name = "rules_go", version = "0.46.0")
+bazel_dep(name = "gazelle", version = "0.35.0")
+
+# Configure Go version
+go_deps = use_extension("@rules_go//go:extensions.bzl", "go_deps")
+go_deps.download(
+    version = "1.22.1",
+)
+use_repo(go_deps, "go_sdk")
+
+# Optional: Configure Gazelle to work with Go modules
+go_deps_gazelle = use_extension("@gazelle//:extensions.bzl", "go_deps_gazelle")
+use_repo(go_deps_gazelle, "bazel_gazelle_go_repository_tools")
+
+# Register Go toolchains
+go_sdk = use_extension("@rules_go//go:extensions.bzl", "go_sdk")
+use_repo(go_sdk, "go_default_sdk")
+
+###############################################################################
+# Bazel now uses Bzlmod by default to manage external dependencies.
+# Please consider migrating your external dependencies from WORKSPACE to MODULE.bazel.
+#
+# For more details, please check https://github.com/bazelbuild/bazel/issues/18958
+###############################################################################
