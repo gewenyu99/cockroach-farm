@@ -13,7 +13,7 @@ public class AppTest {
     }
     @Test public void fails_sometimes() {
         App classUnderTest = new App();
-        java.util.Random random = new java.util.Random();
+        int randomNum = 1 + (int)(Math.random() * 10);
         assertTrue(randomNum > 5);
     }
 }
