@@ -39,6 +39,7 @@ jobs:
         run: curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Run Behave  
         run: |
+          pip install behave
           behave --junit --junit-directory ./junit-reports
         continue-on-error: true
 
