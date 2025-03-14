@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./pytest
+        working-directory: ./behave
     steps:
       - uses: actions/checkout@v4
 

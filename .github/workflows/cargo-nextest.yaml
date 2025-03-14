@@ -1,4 +1,4 @@
-name: Bazel Tests
+name: Go Tests
 
 on:
   schedule:
@@ -22,29 +22,30 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./bazel
+        working-directory: ./gotestsum
     steps:
       - uses: actions/checkout@v4
 
-      - name: Use Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Rust
+        uses: actions/setup-rust@v1
         with:
-          node-version: 20.x
+          rust-version: stable
 
-      - name: Setup Bazelisk
-        uses: bazelbuild/setup-bazelisk@v3
+      - name: Install cargo-nextest
+        run: cargo install cargo-nextest
 
-      - name: run tests
-        run: bazel test //src/main:hello_test --nobuild_event_json_file_path_conversion --build_event_json_file=build_events.json
+      - name: Run tests with cargo-nextest
+        run: cargo nextest run --profile ci
         continue-on-error: true
-
+    
       - name: Install Trunk
         run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Upload JUnit.xml
         if: always()
         run: |
-          ./trunk flakytests upload \
+          ./trunk flakytests test \
             --org-url-slug gewenyu99 \
             --token ${{ secrets.TRUNK_API_TOKEN }} \
-            --bazel-bep-path="build_events.json" \
+            --junit-paths ./junit.xml \
             --allow-empty-test-results \
+            gotestsum --junitfile "./target/nextest/ci/junit.xml"
