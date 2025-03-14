@@ -1,4 +1,4 @@
-name: Pytest Tests
+name: Behave Tests
 
 on:
   schedule:
@@ -37,7 +37,7 @@ jobs:
           pip install -r requirements.txt
       - name: Install Trunk
         run: curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
-      - name: Run Pytest
+      - name: Run Behave  
         run: |
           behave --junit --junit-directory ./junit-reports
         continue-on-error: true
