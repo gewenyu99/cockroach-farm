@@ -1,5 +1,6 @@
 import '../lib/cli.dart';
 import 'package:test/test.dart';
+import 'dart:math';
 
 void main() {
   test('calculate returns 42', () {
@@ -7,7 +8,12 @@ void main() {
   });
 
   test('calculate does not return 0', () {
-    expect(calculate(), isNot(0)); // This test should pass if calculate() is not 0
+    // Introduce randomness to occasionally fail this test
+    if (Random().nextBool()) {
+      expect(calculate(), 0); // This will fail occasionally
+    } else {
+      expect(calculate(), isNot(0)); // This will pass
+    }
   });
 
   test('calculate returns a positive number', () {

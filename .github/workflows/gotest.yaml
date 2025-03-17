@@ -1,4 +1,4 @@
-name: Dart Tests
+name: Go Tests
 
 on:
   schedule:
@@ -22,28 +22,32 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./dart
+        working-directory: ./gotestsum
     steps:
       - uses: actions/checkout@v4
 
-      - name: Set up Dart
-        uses: dart-lang/setup-dart@v1
-        with:
-          sdk: stable
+      - name: Set up CMake
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake g++
 
-      - name: Install dependencies
-        run: dart pub get
+      - name: Configure and Build
+        run: |
+          cmake -B build -S .
+          cmake --build build
+
+      - name: Run Tests
+        run: |
+          ./build/hello_test --gtest_output=xml:junit.xml
+
       
       - name: Install Trunk
         run:  curl -fsSLO --retry 3 https://trunk.io/releases/trunk && chmod +x ./trunk
       - name: Upload JUnit.xml
         if: always()
         run: |
-          ./trunk flakytests test \
+          ./trunk flakytests upload \
             --org-url-slug gewenyu99 \
             --token ${{ secrets.TRUNK_API_TOKEN }} \
             --junit-paths ./junit.xml \
             --allow-empty-test-results \
-            dart test --reporter json | tojunit > ./junit.xml
-
-
