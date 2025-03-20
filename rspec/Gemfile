@@ -1,0 +1,11 @@
+source "https://rubygems.org"
+
+# Specify your gem's dependencies in your gemspec
+# gemspec
+
+# Add dependencies required for development
+group :development, :test do
+  gem "rspec", "~> 3.12"
+  gem "rspec_junit_formatter", "~> 0.6"
+end
+

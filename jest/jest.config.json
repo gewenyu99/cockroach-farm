@@ -1,0 +1,12 @@
+{
+    "reporters": [
+        [
+            "jest-junit",
+            {
+                "outputDirectory": "./",
+                "outputName": "junit.xml",
+                "addFileAttribute": "true"
+            }
+        ]
+    ]
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 134.0.0.0 (Mac OS 10.15.7)" package="" timestamp="2025-03-17T19:22:15" id="0" hostname="vincents-macbook.tailnet-6e00.ts.net" tests="4" errors="0" failures="2" time="0.008">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36"/>
+  </properties>
+  <testcase name="Calculator should add two numbers correctly" time="0.001" classname="Chrome_134_0_0_0_(Mac_OS_10_15_7).Calculator"/>
+  <testcase name="Calculator should return a random number between 1 and 10" time="0" classname="Chrome_134_0_0_0_(Mac_OS_10_15_7).Calculator">
+    <failure type="">TypeError: calculator.randomNumber is not a function
+    at UserContext.&lt;anonymous&gt; (test/calculator.spec.js:23:35)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Calculator should multiply two numbers correctly" time="0.007" classname="Chrome_134_0_0_0_(Mac_OS_10_15_7).Calculator">
+    <failure type="">TypeError: calculator.multiply is not a function
+    at UserContext.&lt;anonymous&gt; (test/calculator.spec.js:18:27)
+    at &lt;Jasmine&gt;
+</failure>
+  </testcase>
+  <testcase name="Calculator should subtract two numbers correctly" time="0" classname="Chrome_134_0_0_0_(Mac_OS_10_15_7).Calculator"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
