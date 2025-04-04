@@ -15,5 +15,7 @@ jobs:
           curl -fsSLO --retry 3 https://trunk.io/releases/trunk 
           chmod +x trunk 
           ./trunk check --ci --ci-progress --github-annotate --all
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
 
       # ... other CI steps
