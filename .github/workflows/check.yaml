@@ -20,6 +20,4 @@ jobs:
 
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          GITHUB_EVENT_WORKFLOW_RUN_HEAD_SHA: ${{ github.sha }}
-
       # ... other CI steps
