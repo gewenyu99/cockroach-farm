@@ -8,12 +8,18 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    permissions:
+      checks: write # For trunk to post annotations
     steps:
       - uses: actions/checkout@v4
       # ... other setup steps
       - run: |
           curl -fsSLO --retry 3 https://trunk.io/releases/trunk 
           chmod +x trunk 
-          ./trunk check --ci --ci-progress --github-annotate --all
+          ./trunk check --ci --ci-progress --github-annotate --all --github-commit "${GITHUB_EVENT_WORKFLOW_RUN_HEAD_SHA}" \
+
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_EVENT_WORKFLOW_RUN_HEAD_SHA: ${{ github.sha }}
 
       # ... other CI steps
