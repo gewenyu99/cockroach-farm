@@ -2,35 +2,33 @@ package golang_examples
 
 import (
 	"errors"
-	"fmt"
-	"math/rand"
+"fmt"
+		"math/rand"
 )
 
 // Hello returns a greeting for the named person.
 func Hello(name string) (string, error) {
-	// If no name was given, return an error with a message.
+// If no name was given, return an error with a message.
 	if name == "" {
-		return name, errors.New("empty name")
+return name, errors.New("empty name")
 	}
 	// Create a message using a random format.
 	message := fmt.Sprintf(randomFormat(), name)
-	return message, nil
+return message, nil
 }
 
-func main() {
-	fmt.Println("Hello, World!")
-}
+func main() { fmt.Println("Hello, World!") }
 
 // randomFormat returns one of a set of greeting messages. The returned
 // message is selected at random.
 func randomFormat() string {
-	// A slice of message formats.
+// A slice of message formats.
 	formats := []string{
-		"Hi, %v. Welcome!",
-		"Great to see you, %v!",
-		"Hail, %v! Well met!",
+"Hi, %v. Welcome!",
+	"Great to see you, %v!",
+			"Hail, %v! Well met!",
 	}
 
 	// Return one of the message formats selected at random.
-	return formats[rand.Intn(len(formats))]
+return formats[rand.Intn(len(formats))]
 }

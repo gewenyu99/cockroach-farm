@@ -1,20 +1,19 @@
-name: Dart Tests
+name:    Dart Tests
 
 on:
   schedule:
-    - cron: 0 */6 * * *
+    -    cron:    0 */6 * * *
   pull_request:
-    branches: [main]
+    branches:  [main]
   push:
-    branches: [main]
+    branches:   [main]
   workflow_dispatch:
     inputs:
       # trunk-ignore(checkov/CKV_GHA_7)
       cli-version:
-        type: string
-        required: false
-        description:
-          The version of `analytics-cli` to use. Defaults to the latest specified in
+        type:   string
+        required:  false
+        description:  The version of `analytics-cli` to use. Defaults to the latest specified in
           `analytis-uploader`.
 
 jobs:
